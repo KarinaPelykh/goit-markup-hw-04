@@ -1,0 +1,575 @@
+:root {
+    --secondary-text-color: #4d5ae5;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff
+}
+
+/* скидання маркерів і декору */
+.list {
+    list-style: none;
+
+}
+
+.link {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,p {
+    margin: 0;
+    padding: 0;
+}
+
+/* скидання маркерів і декору */
+
+.container {
+
+    width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+outline: solid tomato 2px;
+}
+
+img{max-width: 100%;
+    display:block;
+    height: auto;
+}
+/* ====================================HEADER================== ============*/
+
+header {
+    border-bottom: 1px solid #E7E9FC;
+        
+}
+.header-menu{
+    display: flex;
+    align-items:center ;
+   
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+/* ================логотип============== */
+.accent-studio {
+    display: inline-block;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.logo {
+    
+    margin-right: 76px;
+    
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus,
+.accent-studio:hover,
+.accent-studio:focus {
+    color: #404BBF
+}
+
+/* ///////////////логотип ////////////////////*/
+
+
+
+/* ================список посилань =================*/
+.menu-list {
+    display: flex;
+    gap:40px;
+  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.15;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+
+.menu-list .menu-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+}
+
+.menu-link:hover {
+    color: #404BBF
+}
+
+.menu-link:focus {
+    color: #404BBF
+}
+
+/* /////////////////список посилань /////////////////////*/
+
+
+/* ===========================адреса==================== */
+.address-link {
+    margin-left: auto;
+    list-style: none;
+    font-style: normal;
+}
+
+.menu-address {
+    display: flex;
+    font-style: normal;
+    list-style: none;
+    gap: 40px;
+}
+
+
+
+.mail-link {
+    font-style: normal;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
+}
+
+.mail-link:hover,
+.mail-link:focus {
+    color: #404BBF;
+
+}
+
+.tel-link:hover,
+.tel-link:focus {
+    color: #404BBF;
+}
+
+/*////////////////// //////////////адреса/////////////////////////////// */
+
+/* ========////////////////////HEADER //////////////////////============*/
+
+/* ===========MAIN=================== */
+
+/* ================заголовок-кнопка ================*/
+.hero {
+    padding-top: 188px ;
+    padding-bottom: 188px;
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+    
+ 
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.btn-list {    
+    display:block;
+    min-width: 169px;
+   height:56px;
+   border: none;
+   margin-left: auto;
+   margin-right: auto;
+    border-radius: 4px;
+    padding: 16px 32px;
+
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn-list:hover,
+.btn-list:focus {
+    background: #404BBF;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+
+/* ///////////////////заголовок-кнопка/////////////////// */
+
+
+/* ===========ДРУГА СЕКЦІЯ=============== */
+.section-text{
+    padding-top:120px;
+    padding-bottom:120px;
+}
+
+.menu-subtitle {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+gap:24px;
+}
+
+.items-li {
+    width: 264px;
+    
+}
+.items-li:nth-child(4n){
+
+    margin-right: 0;
+}
+
+
+.menu-subtitle > .item-li{
+    flex-basis:calc(100% - 3 * 24px)
+}
+
+
+
+.text-list {
+    margin:0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.caption {
+
+    margin-bottom: 8px;
+    font-family: "Roboto",
+        sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+/* ===========////////////////////ДРУГА СЕКЦІЯ=============== */
+
+/* ===========ТРЕТЯ СЕКЦІЯ=============== */
+.section-img{
+    padding-bottom: 120px;
+    
+}.title-list {
+
+   margin-bottom: 72px;
+    font-family: "Roboto",
+        sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    background-color: #ffffff;}
+
+
+.menu-img {
+    display: flex;
+    gap: 24px;
+ 
+   
+}
+.pic-section {
+  
+    width: calc((100% - 48px) / 3);
+}
+
+
+/* ===========//////////////////////ТРЕТЯ СЕКЦІЯ=============== */
+
+/* ===========Четверта СЕКЦІЯ=============== */
+
+
+.section-text-img{
+   
+    padding-top: 120px;
+    padding-bottom: 120px;
+   
+}
+
+.title-img {
+ 
+    margin-bottom: 72px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2E2F42;
+    text-transform: capitalize;}
+   
+    .menu-ul-list {
+    display: flex;
+    gap:24px;
+   
+}
+
+    .menu-ul-list {
+      
+flex-basis: calc((100% - 72px) / 4);
+}
+
+
+.thumb {
+    width: calc((100% - 72px) / 4);
+    width: 264px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px  rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+   
+
+    flex-basis: calc((100% - 3 * 24px) / 4);
+   
+}
+
+.thumb:nth-child(4n){
+margin-right: 0;
+}
+
+.container-heading {
+    text-align: center;
+   padding: 32px 16px 32px 16px;
+ border-radius: 0px 0px 4px 4px;
+border: 1px solid #e7e9fc;
+border-top: none
+}
+
+
+
+
+.text-img {
+    text-align: center;
+    margin:0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+
+
+
+
+/* .heading {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+.desc-img{ 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+} */
+
+.text-subject {
+    margin: 0;
+    max-width: 264px;
+    text-transform: none;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.text-paragreph {
+    max-width: 264px;
+     margin: 0;
+    text-transform: none;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+/* /oпис роботи зображення */
+
+/* ===========/MAIN=================== */
+
+
+
+/*========== FOOTER================*/
+
+.footer {
+   
+    margin-top: 0;
+    margin-bottom: 0;
+padding: 100px 0;
+    background-color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+
+}
+.logo-link{
+   
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+    text-decoration: none;
+}
+
+.accent {
+    font-family: 'Raleway' sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+}
+
+.logo:hover,
+.logo:focus,
+.accent:hover,
+.accent:focus {
+    color: #404BBF
+}
+
+
+/*==========/ FOOTER================*/
+
+/* портфоліо заголовок */
+
+
+
+/* портфоліо заголовок */
+.logo-accent { 
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+   margin-bottom: 16px;
+   
+}
+/* Сторінка портфоліо; */
+
+ 
+
+.section-button{
+    padding-top: 96px;
+    padding-bottom:120px;
+}
+
+
+.btn-modal{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+}
+.btn-text {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 12px 24px 12px 24px;
+    border: 1px solid #E7E9FC;
+    border: 1px solid #e7e9fc;
+    font-family: "Roboto", sans-serif;
+    background-color: #F4F4FD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    cursor: pointer;
+}
+
+.btn-text:hover,
+.btn-text:focus {
+    background: #404BBF;
+    color: #ffffff;
+    border: 1px solid transparent;
+}
+
+.menu-ul{
+    display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+       column-gap: 24px;
+       row-gap: 48px;
+}
+.item-images {
+   
+    width: calc((100% - 48px) / 3);
+  
+}
+/* .container-ul-img {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-footer{
+    width: 264px;
+} */
+
+
+
+ 
+  
+   
+      
+
+
+
+
+
