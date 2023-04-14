@@ -37,7 +37,7 @@ padding-left: 15px;
 padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-outline: solid tomato 2px;
+/* outline: solid tomato 2px; */
 }
 
 img{max-width: 100%;
@@ -184,6 +184,18 @@ header {
     background-color: #2e2f42;
 }
 
+.overley{
+    height: 600px;
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left:auto ;
+    background-image: linear-gradient(to right, rgba(46,47,66,0.7),rgba(46, 47, 66, 0.7)),
+    url(../images/people-office-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
 .hero-title {
     max-width: 496px;
     margin-right: auto;
@@ -244,7 +256,16 @@ gap:24px;
 
 .items-li {
     width: 264px;
+   
+        
     
+}
+.items-li-icon{
+ width: 264px;
+height: 112px;
+padding: 24px 100px;
+background: #F4F4FD;
+border-radius: 4px;
 }
 .items-li:nth-child(4n){
 
@@ -277,6 +298,37 @@ gap:24px;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
+/* .items-ul-icon{
+
+
+} */
+    .section-menu-icon{
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        
+    }
+
+.section-items-icon{
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+   
+    background-color: rgba(77, 90, 229, 1);
+
+}
+.items-ul-icon{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        fill: #ffffff;
+}
+
 /* ===========////////////////////ДРУГА СЕКЦІЯ=============== */
 
 /* ===========ТРЕТЯ СЕКЦІЯ=============== */
@@ -316,11 +368,12 @@ gap:24px;
 
 
 .section-text-img{
-   
+background: #F4F4FD;
     padding-top: 120px;
     padding-bottom: 120px;
    
 }
+
 
 .title-img {
  
@@ -337,8 +390,10 @@ gap:24px;
     .menu-ul-list {
     display: flex;
     gap:24px;
+
    
 }
+
 
     .menu-ul-list {
       
@@ -347,7 +402,7 @@ flex-basis: calc((100% - 72px) / 4);
 
 
 .thumb {
-    width: calc((100% - 72px) / 4);
+    /* width: calc((100% - 72px) / 4); */
     width: 264px;
     background: #FFFFFF;
     box-shadow: 0px 1px 6px  rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -365,16 +420,16 @@ margin-right: 0;
     text-align: center;
    padding: 32px 16px 32px 16px;
  border-radius: 0px 0px 4px 4px;
-border: 1px solid #e7e9fc;
-border-top: none
+/* border: 1px solid #e7e9fc;
+border-top: none */
 }
 
 
 
 
 .text-img {
+    margin-bottom: 8px;
     text-align: center;
-    margin:0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -482,6 +537,39 @@ padding: 100px 0;
 }
 
 
+/* .social-menu{
+    display: flex;
+    gap:30;
+} */
+.social-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px; ;
+    height: 40px;;
+    border-radius:50%;
+    
+}
+.social-icon{
+   display: flex;
+        justify-content: center;
+        align-items: center;
+    fill:#F4F4FD;
+}
+
+.title-social{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        text-transform: capitalize;
+}
+
+
 /*==========/ FOOTER================*/
 
 /* портфоліо заголовок */
@@ -562,14 +650,65 @@ padding: 100px 0;
     width: 264px;
 } */
 
-
-
- 
+/* ======================================================================== */
+ /*                       Customer -section                                  */
+ /* ======================================================================== */
   
+   .customer-section{
+    padding-top:120px;
+    padding-bottom: 120px;
+
+   }
    
-      
+   .customer-section-menu{
+      display: flex;   
+       gap: 24px;
+       justify-content: center;
+       align-items: center;
+  
+   }
+
+.customer-section-items{
+    display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+      width: 168px;
+      height: 88px;
+        border: 1px solid #8E8F99;
+        border-radius: 4px;
+       
+
+   }
+.customer-section-link{color:#8E8F99;}
+   .customer-icon{
+    fill: currentColor;
+   }
+
+.customer-section-link{
+    display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: center;
+    
+}
 
 
+  .customer-section-link:hover ,
+  .customer-section-link:focus,
+  .customer-section-items:hover,
+  .customer-section-items:focus{ 
 
+color: #404BBF;
+   fill:currentColor;
+ 
+  }
+ .customer-section-items:hover,
+ .customer-section-items:focus {
+     border: 1px solid #404BBF;}
+   
 
+/* ======================================================================== */
+/*                                   Customer -section                       */
+/* ======================================================================== */
 
