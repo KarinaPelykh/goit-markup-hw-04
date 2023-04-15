@@ -299,10 +299,7 @@ border-radius: 4px;
     color: #2e2f42;
 }
 
-/* .items-ul-icon{
 
-
-} */
     .section-menu-icon{
         display: flex;
         gap: 24px;
@@ -321,6 +318,12 @@ border-radius: 4px;
    
     background-color: rgba(77, 90, 229, 1);
 
+}
+
+.section-items-icon:hover,
+.section-items-icon:focus
+{
+background: #404BBF;  
 }
 .items-ul-icon{
     display: flex;
@@ -506,6 +509,8 @@ padding: 100px 0;
     color: #4D5AE5;
 
 }
+
+
 .logo-link{
    
 
@@ -536,11 +541,35 @@ padding: 100px 0;
     color: #404BBF
 }
 
+.social-item{
+border-radius: 50%;
+background: #FFFFFF;
 
-/* .social-menu{
+   
+ 
+        
+}
+.container-social{
     display: flex;
-    gap:30;
-} */
+}
+.social-icon-section{
+    
+    margin-left: 127px;
+}
+
+.icon-menu{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    margin-right:auto;
+    margin-left:auto;
+
+    width: 208px;
+}
+
+
+
 .social-link{
     display: flex;
     align-items: center;
@@ -548,25 +577,34 @@ padding: 100px 0;
 
     width: 40px; ;
     height: 40px;;
-    border-radius:50%;
+    
     
 }
 .social-icon{
-   display: flex;
-        justify-content: center;
-        align-items: center;
-    fill:#F4F4FD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    fill:rgba(244, 244, 253, 1);
+    
 }
 
+.social-item:hover,
+.social-item:focus{
+    background: #31D0AA;
+}
 .title-social{
+    display: block;
+    margin-bottom:8px ;
+
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 24px;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
-        text-transform: capitalize;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    text-transform: capitalize;
 }
 
 
@@ -579,8 +617,8 @@ padding: 100px 0;
 /* портфоліо заголовок */
 .logo-accent { 
     display: inline-block;
-    flex-direction: row;
-    align-items: center;
+    /* flex-direction: row;
+    align-items: center; */
     padding: 0px;
    margin-bottom: 16px;
    
@@ -641,14 +679,8 @@ padding: 100px 0;
     width: calc((100% - 48px) / 3);
   
 }
-/* .container-ul-img {
-    width: 1158px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.container-footer{
-    width: 264px;
-} */
+
+
 
 /* ======================================================================== */
  /*                       Customer -section                                  */
