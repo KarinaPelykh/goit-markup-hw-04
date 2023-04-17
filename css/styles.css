@@ -108,7 +108,7 @@ header {
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-
+ 
 .menu-list .menu-link {
     display: block;
     padding-top: 24px;
@@ -508,9 +508,7 @@ margin-right: 0;
     gap: 120px;
 }
 /* /Social-link */
-.container-footer{
-    margin-right: 120px;
-}
+
 
 .social-icon-section{margin-right: 120px;}
 /* logo */
