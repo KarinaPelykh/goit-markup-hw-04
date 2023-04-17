@@ -497,13 +497,14 @@ margin-right: 0;
 .container-social{
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+    gap: 120px;
 }
 /* /Social-link */
 .container-footer{
     margin-right: 120px;
 }
 
+.social-icon-section{margin-right: 120px;}
 /* logo */
 .logo-link{
 
