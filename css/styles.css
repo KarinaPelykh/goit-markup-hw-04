@@ -505,10 +505,12 @@ margin-right: 0;
 .container-social{
     display: flex;
     align-items: baseline;
-   margin-right: 120px;
+   /* margin-right:120px; */
 }
 /* /Social-link */
-
+.container-footer{ margin-right: 120px;
+       
+}
 
 /* logo */
 .logo-link{
